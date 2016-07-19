@@ -50,3 +50,6 @@ $user = new \App\Seeds\User(10);
 $factory->create($user);
 
 ```
+
+4. 关于faker的使用帮助  
+    [faker](https://github.com/fzaninotto/Faker#fakerproviderlorem)
