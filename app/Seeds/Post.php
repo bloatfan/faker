@@ -12,7 +12,7 @@ class Post extends Model
 
     private static $users;
 
-    public function seed(Faker $faker) 
+    public function seed(Faker $faker)
     {
         // cache
         if (!isset(static::$users)) {

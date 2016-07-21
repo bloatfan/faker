@@ -13,7 +13,7 @@ class User extends Model
     public function seed(Faker $faker)
     {
         return [
-            'username' => $faker->name,
+            'username' => $faker->userName,
             'email' => $faker->email,
             'password' => password_hash('123456', PASSWORD_DEFAULT)
         ];
