@@ -11,7 +11,7 @@ class App implements \ArrayAccess
     public function __construct(array $container = null)
     {
         if (isset(static::$instance)) {
-            throw new Exception('There already exists a App');
+            throw new \Exception('There already exists a App');
         }
 
         static::$instance = $this;
